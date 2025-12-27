@@ -1,8 +1,36 @@
-# BrainFound
+# BrainFound 🧠✨
 
-BrainFound is a 3D foundation model for neuroimaging. It extends the DINOv2 self-supervised learning framework from 2D images to volumetric, multimodal brain MRI. BrainFound learns rich, generalizable representations from unlabeled data, supporting simultaneous disease classification and anatomical segmentation.
+BrainFound is a 3D self-supervised foundation model for brain MRI, designed to tackle the growing demand for accurate, scalable, and automated neuroimaging analysis. By extending the DINOv2 framework from 2D to volumetric, multimodal brain scans, BrainFound learns rich representations from unlabeled data and powers both disease classification and anatomical segmentation in a unified framework.
 
-This unified, multitask approach advances scalable and annotation-efficient brain imaging analysis, with potential impact on clinical diagnosis and personalized care.
+# Why BrainFound?
+
+- Item 1 Radiologist workloads are unsustainable – interpreting one image every 3–4 seconds leads to delays and errors.
+
+Labeled datasets are expensive – traditional supervised deep learning struggles with scalability.
+
+3D context matters – volumetric MRI preserves spatial relationships critical for accurate diagnosis.
+
+Multimodal imaging improves performance – combining T1, T2, and FLAIR captures complementary structural information.
+
+BrainFound addresses these challenges with self-supervised learning, enabling generalizable, annotation-efficient brain MRI analysis.
+
+# Key Features 🚀
+
+3D SSL model – learns from volumetric brain MRI scans.
+
+Multimodal support – T1, T2, FLAIR (easily extendable to other contrasts).
+
+Voxel resolution agnostic – works with isotropic and anisotropic scans.
+
+Unified multitask capability – supports:
+
+Multi-disease classification (e.g., dementia subtypes, tumor grading)
+
+Multi-region anatomical and tumor segmentation
+
+Robust generalization – works across datasets, resolutions, and imaging protocols.
+
+Few-shot performance – excels with limited labeled data.
 
 
 ![BrainFound Workflow](docs/brainfound_workflow.png)
