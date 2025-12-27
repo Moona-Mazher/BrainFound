@@ -13,6 +13,21 @@ brainfound/
 
 
 
+
+# Requirements
+
+Install dependencies with:
+
+pip install -r requirements.txt
+
+
+# Key packages: torch, albumentations, SimpleITK, pandas, numpy, mripreprocessor.
+
+
+
+
+
+
 # Citation
 @article{mazher2025towards,
   title={Towards Generalisable Foundation Models for 3D Brain MRI},
