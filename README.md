@@ -62,14 +62,7 @@ BrainFound/
 
 └── LICENSE
 
-### Unified Architecture
 
-BrainFound uses a shared 3D self-supervised backbone with task-specific heads.
-
-- **Classification**: Global pooled features → Linear classifier
-- **Segmentation**: Dense voxel-wise prediction via 1×1×1 convolution
-
-The same pretrained backbone can be reused across tasks by changing only the task head.
 
 # Requirements & Setup
 1️⃣ Clone the repository
