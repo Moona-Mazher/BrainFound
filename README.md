@@ -3,3 +3,8 @@ BrainFound is a 3D foundation model for neuroimaging. This model extends the DIN
 
 The code will be made publicly available soon.
 (Code is coming soon!)
+
+brainfound/
+└── preprocessing/
+    ├── dicom_to_nifti.py       # Your dataset-agnostic DICOM → NIfTI conversion
+    └── transforms.py           # MRI preprocessing pipeline (resampling, normalization, etc.)
