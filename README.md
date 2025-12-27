@@ -38,10 +38,19 @@ BrainFound addresses these challenges with self-supervised learning, enabling ge
 
 
 # Repository Structure
-brainfound/
-└── preprocessing/
-    ├── dicom_to_nifti.py       # Dataset-agnostic DICOM → NIfTI conversion
-    └── transforms.py           # MRI preprocessing pipeline (resampling, normalization, etc.)
+BrainFound/
+├── preprocessing/
+│   ├── dicom_to_nifti.py
+│   └── kfold_split.py
+├── datasets/
+│   └── multimodal_mri_dataset.py
+├── scripts/
+│   └── preprocess_with_mripreprocessor.py
+├── examples/
+├── requirements.txt
+├── README.md
+└── LICENSE
+
 
 # Requirements & Setup
 1️⃣ Clone the repository
