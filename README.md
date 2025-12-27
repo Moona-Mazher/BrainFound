@@ -4,33 +4,33 @@ BrainFound is a 3D self-supervised foundation model for brain MRI, designed to t
 
 # Why BrainFound?
 
-- Item 1 Radiologist workloads are unsustainable – interpreting one image every 3–4 seconds leads to delays and errors.
+- Radiologist workloads are unsustainable – interpreting one image every 3–4 seconds leads to delays and errors.
 
-Labeled datasets are expensive – traditional supervised deep learning struggles with scalability.
+- Labeled datasets are expensive – traditional supervised deep learning struggles with scalability.
 
-3D context matters – volumetric MRI preserves spatial relationships critical for accurate diagnosis.
+- 3D context matters – volumetric MRI preserves spatial relationships critical for accurate diagnosis.
 
-Multimodal imaging improves performance – combining T1, T2, and FLAIR captures complementary structural information.
+- Multimodal imaging improves performance – combining T1, T2, and FLAIR captures complementary structural information.
 
 BrainFound addresses these challenges with self-supervised learning, enabling generalizable, annotation-efficient brain MRI analysis.
 
 # Key Features 🚀
 
-3D SSL model – learns from volumetric brain MRI scans.
+- 3D SSL model – learns from volumetric brain MRI scans.
 
-Multimodal support – T1, T2, FLAIR (easily extendable to other contrasts).
+- Multimodal support – T1, T2, FLAIR (easily extendable to other contrasts).
 
-Voxel resolution agnostic – works with isotropic and anisotropic scans.
+- Voxel resolution agnostic – works with isotropic and anisotropic scans.
 
-Unified multitask capability – supports:
+- Unified multitask capability – supports:
 
-Multi-disease classification (e.g., dementia subtypes, tumor grading)
+    - Multi-disease classification (e.g., dementia subtypes, tumor grading)
 
-Multi-region anatomical and tumor segmentation
+   -  Multi-region anatomical and tumor segmentation
 
-Robust generalization – works across datasets, resolutions, and imaging protocols.
+- Robust generalization – works across datasets, resolutions, and imaging protocols.
 
-Few-shot performance – excels with limited labeled data.
+- Few-shot performance – excels with limited labeled data.
 
 
 ![BrainFound Workflow](docs/brainfound_workflow.png)
