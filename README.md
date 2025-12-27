@@ -4,7 +4,7 @@ BrainFound is a 3D foundation model for neuroimaging. It extends the DINOv2 self
 
 This unified, multitask approach advances scalable and annotation-efficient brain imaging analysis, with potential impact on clinical diagnosis and personalized care.
 
-Repository Structure
+# Repository Structure
 brainfound/
 └── preprocessing/
     ├── dicom_to_nifti.py       # Dataset-agnostic DICOM → NIfTI conversion
