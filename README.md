@@ -40,6 +40,7 @@ BrainFound addresses these challenges with self-supervised learning, enabling ge
 # Repository Structure
 BrainFound/
 ├── preprocessing/
+
 │   ├── dicom_to_nifti.py
 │   └── kfold_split.py
 ├── datasets/
