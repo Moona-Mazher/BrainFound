@@ -8,3 +8,16 @@ brainfound/
 └── preprocessing/
     ├── dicom_to_nifti.py       # Your dataset-agnostic DICOM → NIfTI conversion
     └── transforms.py           # MRI preprocessing pipeline (resampling, normalization, etc.)
+
+
+
+
+
+# Citation
+@article{BrainFound2025,
+  title={BrainFound: 3D Self-Supervised Foundation Model for Brain MRI},
+  author={...},
+  journal={arXiv preprint arXiv:2510.23415},
+  year={2025}
+}
+
