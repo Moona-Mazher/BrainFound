@@ -14,9 +14,9 @@ brainfound/
 
 
 # Citation
-@article{BrainFound2025,
-  title={BrainFound: 3D Self-Supervised Foundation Model for Brain MRI},
-  author={...},
+@article{mazher2025towards,
+  title={Towards Generalisable Foundation Models for 3D Brain MRI},
+  author={Mazher, Moona and Parker, Geoff JM and Alexander, Daniel C},
   journal={arXiv preprint arXiv:2510.23415},
   year={2025}
 }
