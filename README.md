@@ -55,7 +55,7 @@ Install dependencies with:
 
 
 
-# Citation
+## Citation
 @article{mazher2025towards,
   title={Towards Generalisable Foundation Models for 3D Brain MRI},
   author={Mazher, Moona and Parker, Geoff JM and Alexander, Daniel C},
