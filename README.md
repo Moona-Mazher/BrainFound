@@ -18,11 +18,11 @@ brainfound/
 
 # Requirements & Setup
 
-## 1. Clone the repository
+#1. Clone the repository
 ```bash
 git clone https://github.com/Moona-Mazher/BrainFound.git
 cd BrainFound
-## 2. Create a Python environment (recommended)
+# 2. Create a Python environment (recommended)
 Using conda:
 
 bash
@@ -35,11 +35,11 @@ bash
 Copy code
 python -m venv brainfound_env
 brainfound_env\Scripts\activate   # Windows
-## 3. Install dependencies
+# 3. Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-## 4. Verify installation
+# 4. Verify installation
 bash
 Copy code
 python -c "import torch, albumentations, SimpleITK, pandas, numpy; print('Packages loaded!')"
