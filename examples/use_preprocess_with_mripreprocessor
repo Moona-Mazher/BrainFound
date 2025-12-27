@@ -1,0 +1,1 @@
+python scripts/preprocess_mri.py --input "E:/ReMIND_Niftii" --output "E:/ReMIND_Preprocessed"
