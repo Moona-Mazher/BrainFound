@@ -96,8 +96,13 @@ python -c "import torch, albumentations, SimpleITK, pandas, numpy; print('Packag
 If you use BrainFound in your work, please cite:
 
 @article{mazher2025towards,
+
   title={Towards Generalisable Foundation Models for 3D Brain MRI},
+  
   author={Mazher, Moona and Parker, Geoff JM and Alexander, Daniel C},
+  
   journal={arXiv preprint arXiv:2510.23415},
+  
   year={2025}
+  
 }
