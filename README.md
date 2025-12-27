@@ -1,4 +1,4 @@
-#BrainFound
+# BrainFound
 
 BrainFound is a 3D foundation model for neuroimaging. It extends the DINOv2 self-supervised learning framework from 2D images to volumetric, multimodal brain MRI. BrainFound learns rich, generalizable representations from unlabeled data, supporting simultaneous disease classification and anatomical segmentation.
 
@@ -10,7 +10,7 @@ brainfound/
     ├── dicom_to_nifti.py       # Dataset-agnostic DICOM → NIfTI conversion
     └── transforms.py           # MRI preprocessing pipeline (resampling, normalization, etc.)
 
-Requirements & Setup
+# Requirements & Setup
 1️⃣ Clone the repository
 git clone https://github.com/Moona-Mazher/BrainFound.git
 cd BrainFound
@@ -37,7 +37,7 @@ Key packages included: torch, torchvision, albumentations, SimpleITK, pandas, nu
 4️⃣ Verify installation
 python -c "import torch, albumentations, SimpleITK, pandas, numpy; print('Packages loaded!')"
 
-Citation
+# Citation
 
 If you use BrainFound in your work, please cite:
 
