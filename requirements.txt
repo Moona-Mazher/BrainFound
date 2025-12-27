@@ -1,0 +1,9 @@
+torch>=2.1.0
+torchvision
+albumentations
+SimpleITK
+pandas
+numpy
+mripreprocessor
+scikit-learn
+matplotlib
