@@ -1,21 +1,23 @@
 import torch
 
-# Load DINOv2 ViT-S/14 from Facebook Research
-# (frozen backbone, no training)
 class DINOv2Base(torch.nn.Module):
-    def __init__(self, model_name="dinov2_vits14"):
+    """
+    Minimal DINOv2 placeholder using ViT-L/14 backbone (frozen).
+    """
+    def __init__(self, model_name="dinov2_vitl14"):
         super().__init__()
-        # Load pretrained model
+        # Load pretrained DINOv2 large ViT backbone
         self.dinov2 = torch.hub.load(
             'facebookresearch/dinov2', model_name, pretrained=True
         )
-        # Freeze backbone
+        # Freeze the backbone
         for param in self.dinov2.parameters():
             param.requires_grad = False
 
     def forward(self, x):
         """
-        x: torch.Tensor of shape (B, 3, H, W), e.g., random tensor or image batch
+        Forward pass: extract patch embeddings
+        x: torch.Tensor of shape (B, 3, H, W)
         returns: patch embeddings of shape (B, num_patches, embedding_dim)
         """
         with torch.no_grad():
@@ -23,9 +25,9 @@ class DINOv2Base(torch.nn.Module):
         return features['x_norm_patchtokens']
 
 
-# Quick test
 if __name__ == "__main__":
+    # Quick test with random tensor
     model = DINOv2Base()
     dummy_input = torch.randn(1, 3, 224, 224)
     embeddings = model(dummy_input)
-    print("DINOv2 patch embeddings shape:", embeddings.shape)
+    print("DINOv2 ViT-L/14 patch embeddings shape:", embeddings.shape)
