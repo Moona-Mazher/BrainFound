@@ -40,27 +40,48 @@ BrainFound addresses these challenges with self-supervised learning, enabling ge
 # Repository Structure
 
 BrainFound/
-├── preprocessing/
+
+├── Dataset/
+
+│   ├── __init__.py
+
+│   └── multimodal_mri_dataset.py
+
+├── Preprocessing/
 
 │   ├── dicom_to_nifti.py
 
 │   └── kfold_split.py
 
-├── datasets/
+├── docs/
 
-│   └── multimodal_mri_dataset.py
-
-├── scripts/
-
-│   └── preprocess_with_mripreprocessor.py
+│   └── brainfound_workflow.png
 
 ├── examples/
 
-├── requirements.txt
+│   ├── demo.py
+
+│   ├── run_dataloader_example.py
+
+│   └── use_preprocess_with_mripreprocessor
+
+├── models/
+
+│   ├── dinov2_base.py
+
+│   └── brainfound.py
+
+├── scripts/
+
+│   ├── generate_folds.py
+
+│   └── preprocess_with_mripreprocessor.py
+
+├── LICENSE
 
 ├── README.md
 
-└── LICENSE
+└── requirements.txt
 
 
 
